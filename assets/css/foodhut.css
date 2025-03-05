@@ -11272,3 +11272,47 @@ header {
 .copyright {
   margin-top: 10px;
 }
+
+@media (max-width: 767px) {
+  #blog .row {
+      justify-content: center !important;
+  }
+  
+  #blog .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding: 0 20px; /* Espacio lateral */
+  }
+  
+  #blog .card {
+      max-width: 500px; /* Controla el ancho máximo */
+  }
+}
+
+.header .overlay {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.logo-container {
+  margin: -30px 0 20px 0; /* Ajuste posición vertical del logo */
+}
+
+.header-logo {
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
+}
+
+/* Versión móvil */
+@media (max-width: 768px) {
+  
+  .header-logo {
+      max-width: 250px !important;
+      padding-bottom: 70px;
+  }
+}
+
+.header {
+  height: 100vh; /* Altura completa */
+  position: relative;
+  overflow: hidden; /* Oculta cualquier desbordamiento */
+}
