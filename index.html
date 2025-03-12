@@ -58,11 +58,16 @@
                 <img src="assets/imgs/logo.png" alt="Logo" class="header-logo mb-4">
             </div>
             <h1 class="display-2 font-weight-bold my-3">Las Cavas de Dionisio</h1>
-            <h2 class="display-4 mb-5">Where Pleasure Meets Tradition</h2>
-            <a class="btn btn-lg btn-primary" href="#blog">Nuestros Productos</a>
+            <h2 class="display-4 mb-4">Where Pleasure Meets Tradition</h2> <!-- Cambiado mb-5 a mb-4 -->
+            
+            <!-- Contenedor ajustado -->
+            <div class="btn-wrapper px-3"> <!-- Padding lateral añadido -->
+                <a class="btn btn-primary custom-btn" href="#blog">
+                    <span class="btn-text">Nuestros Productos</span>
+                </a>
+            </div>
         </div>
     </header>
-
     <!--  About Section  -->
     <div id="about" class="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
         <div class="row">
@@ -96,8 +101,9 @@ Descubre la esencia de la naturaleza en cada copa y eleva tu paladar con nuestro
         <h2 class="section-title py-5">Nuestros Productos</h2>
       <div class="row justify-content-center justify-content-md-start"> 
 
-            <div class="col-sm-7 col-md-4 mb-5">
-                <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+        <div class="row justify-content-center"> <!-- Fila centrada -->
+            <div class="col-auto"> <!-- Columna automática -->
+                <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#foods" role="tab"
                             aria-controls="pills-home" aria-selected="true">Vinos</a>
@@ -131,6 +137,10 @@ Descubre la esencia de la naturaleza en cada copa y eleva tu paladar con nuestro
                                     preservar su carácter silvestre.
                                     Aromas intensos y sabores profundos con un toque de acidez que equilibra su dulzura
                                     natural. </p>
+                                    <h2 style="font-size: 2rem; font-weight: bold; font-family: 'Georgia', serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                                        <span style="color: #28a745; border: 2px solid 28a745;">$6.99</span>
+                                    </h2>
+                                    
                             </div>
                         </div>
                     </div>
@@ -147,6 +157,9 @@ Descubre la esencia de la naturaleza en cada copa y eleva tu paladar con nuestro
                                     
                                     Fruta macerada con azúcar, fermentada con levadura, clarificada y embotellada para preservar su carácter silvestre.
                                     Aromas intensos y sabores profundos con un toque de acidez que equilibra su dulzura natural. </p>
+                                    <h2 style="font-size: 2rem; font-weight: bold; font-family: 'Georgia', serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                                        <span style="color: #28a745;">$6.99</span>
+                                    </h2>
                             </div>
                         </div>
                     </div>
@@ -163,6 +176,9 @@ Descubre la esencia de la naturaleza en cada copa y eleva tu paladar con nuestro
                                     
                                     Fruta macerada con azúcar, fermentada con levadura, clarificada y embotellada para preservar su carácter silvestre.
                                     Aromas intensos y sabores profundos con un toque de acidez que equilibra su dulzura natural.</p>
+                                    <h2 style="font-size: 2rem; font-weight: bold; font-family: 'Georgia', serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                                        <span style="color: #28a745;">$6.99</span>
+                                    </h2>
                             </div>
                         </div>
                     </div>
@@ -208,6 +224,19 @@ Descubre la esencia de la naturaleza en cada copa y eleva tu paladar con nuestro
         </div>
     </div>
 
+    <!-- core  -->
+<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script> 
+
+<!-- bootstrap affix -->
+<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+<!-- wow.js -->
+<script src="assets/vendors/wow/wow.js"></script>
+
+<!-- FoodHut js (aquí va tu código personalizado) -->
+<script src="assets/js/foodhut.js"></script>
+</body>
     <footer id="footer" class="py-4">
         <div class="footer-content">
             <div class="contact-info">
@@ -227,23 +256,8 @@ Descubre la esencia de la naturaleza en cada copa y eleva tu paladar con nuestro
     </footer>
     
 
-    
 
 
 
-
-<!-- core  -->
-<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script> 
-
-<!-- bootstrap affix -->
-<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-<!-- wow.js -->
-<script src="assets/vendors/wow/wow.js"></script>
-
-<!-- FoodHut js (aquí va tu código personalizado) -->
-<script src="assets/js/foodhut.js"></script>
-</body>
 
 </html>
