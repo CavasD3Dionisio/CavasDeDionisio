@@ -12249,7 +12249,7 @@ header {
 
   /* Fondo negro SOLO cuando el menú está abierto */
   .navbar-collapse.show {
-    background: url('/assets/imgs/logomovil.png') center/cover no-repeat, rgba(0, 0, 0, 0.95);
+    background: url('../imgs/logomovil.png') center/cover no-repeat, rgba(0, 0, 0, 0.95);
     background-blend-mode: darken;
     padding: 20px;
     margin-top: 10px;
